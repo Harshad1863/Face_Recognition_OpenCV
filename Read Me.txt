@@ -1,0 +1,19 @@
+What We Used?
+1.Python
+2.openCV
+3.haarcascade
+4.trainer(LBPH)
+
+OpenCV :- Functions Used for real time computer vision.
+Haarcascade :- It is machine learning Object detection algorithm used for identify objects in image or video.We used                Frontal face algorithm for face detection.
+LBPH :- Local Binary Pattern Histogram(LBPH) is used for recognize both front face and side face.
+
+Libraries to be installed :-
+1.pip install opencv-python
+2.pip install opencv-contrib-python
+3.pip install numpy
+4.pip install pillow
+5.pip install face
+
+
+
