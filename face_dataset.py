@@ -9,7 +9,7 @@ cam.set(4, 480) # set video height
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # For each person, enter one numeric face id
-face_id = input('\n enter user id')
+face_id = input('\n enter user id :- ')
 
 print("\n [INFO] Initializing face capture....")
 # Initialize individual sampling face count
@@ -35,7 +35,7 @@ while(True):
     k = cv2.waitKey(100) & 0xff 
     if k == 27:
         break
-    elif count >= 30: 
+    elif count >= 10: 
          break
 
 # Do a bit of cleanup
