@@ -10,11 +10,11 @@ faceCascade = cv2.CascadeClassifier(cascadePath);
 
 font = cv2.FONT_HERSHEY_TRIPLEX
 
-#iniciate id counter
+#initiate id counter
 id = 0
 
 
-names = [0, 1, 2, 3, 'Z', 'W'] 
+names = [0, 1, 2, 3,4,5,6,7,8,9,10] 
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
