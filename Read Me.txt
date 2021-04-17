@@ -15,5 +15,11 @@ Libraries to be installed :-
 4.pip install pillow
 5.pip install face
 
+How to Run :-
+1.python face_detaset.py
+2.python training.py
+3.python face_recognize.py
+
+
 
 
